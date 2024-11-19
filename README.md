@@ -36,3 +36,6 @@ This function manages the ordering process:
 
 ``bash cd restaurant-ordering-system``
 
+python3 restaurant_order.py
+
+
