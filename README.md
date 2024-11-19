@@ -11,3 +11,6 @@ Python 3.x installed on your machine.
 No additional libraries or dependencies are required.
 
 How to Run
+```bash
+git clone https://github.com/yourusername/restaurant-ordering-system.git```
+
