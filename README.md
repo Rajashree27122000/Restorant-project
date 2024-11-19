@@ -32,3 +32,7 @@ This function manages the ordering process:
 ## Example
 
 ``bash git clone https://github.com/your-username/restaurant-ordering-system.git``
+
+
+``bash cd restaurant-ordering-system``
+
