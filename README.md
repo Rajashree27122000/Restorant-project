@@ -1,16 +1,33 @@
-# Restorant-project
-Restaurant Ordering System
-A simple Python-based restaurant ordering system that allows customers to view a menu, select items to order, and calculate the total cost of the items.
+# Restaurant Ordering System
+
+This is a simple Python program that simulates a restaurant menu where users can order items and the system calculates the total price.
 
 ## Features
-Menu Display: Displays a predefined restaurant menu with prices.
-Order Management: Lets the customer add items to their order and calculates the total cost.
-Simple Interaction: The system interacts with the customer through the console, asking for their choices and confirming selections.
-Prerequisites
-Python 3.x installed on your machine.
-No additional libraries or dependencies are required.
 
-How to Run
-```bash
-git clone https://github.com/yourusername/restaurant-ordering-system.git```
+- Displays a menu of available items with their prices.
+- Allows customers to order multiple items.
+- Keeps track of the total price of the order.
+- Supports checking for invalid item selections and prompts the user to choose a valid item.
+
+## Requirements
+
+- Python 3.x
+- A terminal or command prompt to run the Python script.
+
+## Code Explanation
+
+The code consists of two main functions: `manager()` and `main()`. 
+
+### `manager()` function
+This function greets the user and asks if they would like to place an order. If the customer responds with "yes", it displays the menu and continues to process the order. If they respond with "no", the program exits.
+
+### `main()` function
+This function manages the ordering process:
+1. It prompts the user to select an item from the menu.
+2. It checks if the item is available in the `menu` dictionary and adds its price to the total order.
+3. It asks if the user wants to order another item.
+4. If the user selects an invalid item, it asks them to choose again.
+5. Finally, it displays the total price of the order and ends the session.
+
+## Example
 
